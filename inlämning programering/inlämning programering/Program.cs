@@ -41,7 +41,7 @@ namespace BubbleSort
         }
         static void Main(string[] args)
         {
-            int[] n = new int[] { 10, 50, 100, 500, 1000, 1500, 2000, 2500, 3000, 3500 };
+            int[] n = new int[] { 10, 1000, 10000};
             for (int i = 0; i < n.Length; i++)
             {
                 Console.WriteLine("Skapar slumpad data av längd " + n[i]);
